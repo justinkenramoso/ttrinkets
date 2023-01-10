@@ -6,19 +6,21 @@ function nav() {
       <div className="container mx-auto px-3">
         <div className="flex items-center text-xl justify-center lg:justify-between">
           <div className="flex items-center">
-            <img src="/logo.png" alt="" className="w-12 h-12" />
-            <h4 className="hidden lg:block font-bold text-3xl pr-10">
+            <a href="/">
+              <img src="/logo.png" alt="" className="w-12 h-12" />
+            </a>
+            <a href="/" className="hidden lg:block font-bold text-3xl pr-10">
               TIMELESS TRINKETS
-            </h4>
+            </a>
           </div>
           <div className="flex items-center">
-            <a href="#" className="px-2 lg:px-6">
+            <a href="#" className="px-2 lg:px-6 hover:text-dark1">
               Products
             </a>
-            <a href="#" className="px-2 lg:px-6">
+            <a href="/about" className="px-2 lg:px-6 hover:text-dark1">
               About
             </a>
-            <a href="#" className="px-2 lg:px-6">
+            <a href="#" className="px-2 lg:px-6 hover:text-dark1">
               Contact
             </a>
           </div>
