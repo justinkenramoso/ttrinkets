@@ -178,7 +178,7 @@ export default function Home() {
         </div>
         <div className="container h-screen mx-auto my-24 text-dark2">
           <h2 className="text-4xl font-bold text-center">
-            You've come to the right place.
+            You&apos;ve come to the right place.
           </h2>
           <hr className="my-5 text-dark2" />
           <h3 className="text-center text-2xl">
