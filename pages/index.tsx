@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Nav from "../components/nav";
 import Feature from "../components/feature";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         <div className="container mx-auto px-3">
           <div className="lg:w-1/2">
             <h2 className="text-5xl lg:text-6xl font-bold text-light1">
-              Take your gaming experience to the next level
+              Get Your Hands on Retro Fun!
             </h2>
             <h4 className="mt-5 lg:text-xl font-semibold text-light1 lg:text-light2">
               Play a wide range of classic and modern games on our latest retro
@@ -62,7 +63,7 @@ export default function Home() {
                   />
                 </svg>
               }
-              head="Value"
+              head="Reasonable Prices"
               body="We offer pocket-friendly prices without compromising on quality. Our products are trusted, tested and good to go!"
             />
             <Feature
@@ -82,7 +83,7 @@ export default function Home() {
                   />
                 </svg>
               }
-              head="Latest"
+              head="Up-to-date"
               body="We always keep our selection updated with the latest retro handheld gaming devices. So, stay ahead of the curve and check out our selection now!"
             />
             <Feature
@@ -102,7 +103,7 @@ export default function Home() {
                   />
                 </svg>
               }
-              head="Quality"
+              head="Premium"
               body="We take pride in our products and only offer the best quality gaming devices that have been thoroughly tested and are guaranteed to give you an enjoyable experience."
             />
             <Feature
@@ -126,6 +127,65 @@ export default function Home() {
               body="Our retro handheld consoles are simple and easy to use, allowing you to get started playing right away with minimal setup required."
             />
           </div>
+        </div>
+        <div className="container mx-auto px-10 py-16 bg-dark1 rounded">
+          <div className="grid lg:grid-cols-2 gap-10">
+            <div className="flex justify-center items-center">
+              <Image
+                className="rounded hover:scale-105 transition"
+                src="/arcade.jpg"
+                alt="Arcade"
+                width={400}
+                height={400}
+              />
+            </div>
+            <div className="text-light1">
+              <h3 className="text-3xl italic font-bold">
+                Remember those times?
+              </h3>
+              <br />
+              <p className="text-lg">
+                The arcade was the place to be for many of us growing up in the
+                80s and 90s. For a few coins, we could play hours of classic
+                games like Pac-Man, Donkey Kong, and Street Fighter. It was a
+                time of innocent fun and nostalgia that remains with us today.
+              </p>
+            </div>
+            <div className="flex justify-center items-center">
+              <Image
+                className="rounded hover:scale-105 transition"
+                src="/gameboy.jpg"
+                alt="Gameboy"
+                width={400}
+                height={400}
+              />
+            </div>
+            <div className="text-light1">
+              <h3 className="text-3xl italic font-bold">or maybe...</h3>
+              <br />
+              <p>
+                The nostalgia of old handheld game consoles such as the Gameboy
+                and PSP is something that you can relate to. These consoles were
+                popular for their portability, allowing gamers to take their
+                favorite games with them wherever they went. With new
+                advancements in technology, these classic handhelds have been
+                replaced by more powerful devices, yet there’s still something
+                special about revisiting these old games that makes them so
+                beloved.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container h-screen mx-auto my-24 text-dark2">
+          <h2 className="text-4xl font-bold text-center">
+            You've come to the right place.
+          </h2>
+          <hr className="my-5 text-dark2" />
+          <h3 className="text-center text-2xl">
+            Timeless Trinkets offers the latest and greatest retro handhelds,
+            perfect for any collector or enthusiast. Get your hands on these
+            timeless trinkets at an affordable price!
+          </h3>
         </div>
       </section>
     </>

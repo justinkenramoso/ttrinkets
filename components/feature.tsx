@@ -8,7 +8,7 @@ interface FeatureProps {
 
 function feature(props: FeatureProps) {
   return (
-    <div className="bg-light2 text-dark2 p-5 rounded text-center flex flex-col items-center drop-shadow hover:drop-shadow-xl transition hover:cursor-pointer">
+    <div className="bg-light2 text-dark2 p-5 rounded text-center flex flex-col items-center drop-shadow hover:drop-shadow-xl transition">
       {props.icon}
       <h4 className="text-2xl font-semibold">{props.head}</h4>
       <br />
