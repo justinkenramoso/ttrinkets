@@ -169,9 +169,9 @@ export default function Home() {
                 popular for their portability, allowing gamers to take their
                 favorite games with them wherever they went. With new
                 advancements in technology, these classic handhelds have been
-                replaced by more powerful devices, yet there’s still something
-                special about revisiting these old games that makes them so
-                beloved.
+                replaced by more powerful devices, yet there&apos;s still
+                something special about revisiting these old games that makes
+                them so beloved.
               </p>
             </div>
           </div>
