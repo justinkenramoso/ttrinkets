@@ -2,6 +2,7 @@ import Head from "next/head";
 import Nav from "../components/nav";
 import Feature from "../components/feature";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -176,16 +177,39 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container h-screen mx-auto my-24 text-dark2">
+        <div
+          className="w-screen py-24 my-24 text-light1 flex flex-col items-center justify-center bg-gray-900 bg-blend-overlay bg-center bg-cover bg-fixed"
+          style={{ backgroundImage: "url('/collection.jpg')" }}
+        >
           <h2 className="text-4xl font-bold text-center">
             You&apos;ve come to the right place.
           </h2>
           <hr className="my-5 text-dark2" />
-          <h3 className="text-center text-2xl">
+          <h3 className="text-center text-2xl px-10">
             Timeless Trinkets offers the latest and greatest retro handhelds,
             perfect for any collector or enthusiast. Get your hands on these
             timeless trinkets at an affordable price!
           </h3>
+          <Link
+            href="/about"
+            className="mt-10 px-10 py-2 rounded-full border border-teal-300 text-teal-300 hover:bg-teal-300 hover:text-black transition"
+          >
+            View Products{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 h-4 inline"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </Link>
         </div>
       </section>
     </>
