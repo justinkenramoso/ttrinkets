@@ -10,7 +10,7 @@ export default function Document() {
           async
         ></script>
       </Head>
-      <body>
+      <body className="text-dark2">
         <Main />
         <NextScript />
       </body>

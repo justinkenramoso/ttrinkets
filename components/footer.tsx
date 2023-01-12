@@ -32,7 +32,7 @@ const footer = () => {
           </div>
         </div>
         <div>
-          <p className="italic mt-4 md:mt-0">Happy Gaming! :&gt;</p>
+          <p className="italic mt-4 md:mt-0">Happy Retro Gaming! :&gt;</p>
         </div>
       </div>
     </footer>

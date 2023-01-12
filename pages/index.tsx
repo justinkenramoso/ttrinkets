@@ -143,8 +143,8 @@ export default function Home() {
             View Products <i className="fa-solid fa-angles-right"></i>
           </Link>
         </div>
-        <div className="container mx-auto py-10 px-5">
-          <h4 className="text-2xl">We sell stuff from:</h4>
+        <div className="container mx-auto py-20 px-5">
+          <h4 className="text-2xl text-center">We have stuff from:</h4>
           <div className="flex justify-center items-center flex-wrap mt-6">
             <div className="relative w-60 h-20 border">
               <Image
