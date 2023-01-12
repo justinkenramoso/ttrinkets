@@ -16,13 +16,13 @@ function nav() {
             </Link>
           </div>
           <div className="flex items-center">
-            <Link href="#" className="px-2 lg:px-6 hover:text-dark1">
+            <Link href="/" className="px-2 lg:px-6 hover:text-dark1">
+              Home
+            </Link>
+            <Link href="/products" className="px-2 lg:px-6 hover:text-dark1">
               Products
             </Link>
-            <Link href="/about" className="px-2 lg:px-6 hover:text-dark1">
-              About
-            </Link>
-            <Link href="#" className="px-2 lg:px-6 hover:text-dark1">
+            <Link href="/contact" className="px-2 lg:px-6 hover:text-dark1">
               Contact
             </Link>
           </div>
