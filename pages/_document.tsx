@@ -7,6 +7,7 @@ export default function Document() {
         <script
           src="https://kit.fontawesome.com/30fa94939f.js"
           crossOrigin="anonymous"
+          async
         ></script>
       </Head>
       <body>
