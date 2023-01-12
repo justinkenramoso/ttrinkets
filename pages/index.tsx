@@ -29,12 +29,12 @@ export default function Home() {
               handheld gaming devices — now available at affordable prices!
             </h4>
             <div className="flex mt-3">
-              <a
+              <Link
                 href="/products"
                 className="mr-3 px-10 py-2 text-lg bg-green-500 text-light1 font-semibold rounded-sm hover:bg-green-600 transition"
               >
                 Shop Now
-              </a>
+              </Link>
               <a
                 href="#features"
                 className="px-3 py-2 text-lg text-light1 border rounded-sm hover:bg-light1 hover:text-dark2 transition"
