@@ -75,46 +75,44 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="container mx-auto px-10 py-16 bg-dark1 rounded">
-          <div className="grid lg:grid-cols-2 gap-10">
-            <div className="flex justify-center items-center">
-              <Image
-                className="rounded hover:scale-105 transition"
-                src="/arcade.jpg"
-                alt="Arcade"
-                width={400}
-                height={400}
-              />
-            </div>
-            <div className="text-light1">
-              <h3 className="text-3xl italic font-bold">
-                Remember those times?
+        <div className="container mx-auto px-10 py-16 bg-dark1 rounded-3xl">
+          <div className="grid lg:grid-cols-3 gap-10">
+            <div className="flex flex-col justify-center text-light1 text-center lg:col-span-2">
+              <h3 className="text-4xl font-black italic">
+                REMEMBER THOSE TIMES?
               </h3>
               <br />
-              <p className="text-lg">
+              <p className="text-2xl">
                 The arcade was the place to be for many of us growing up in the
                 80s and 90s. For a few coins, we could play hours of classic
                 games like Pac-Man, Donkey Kong, and Street Fighter. It was a
                 time of innocent fun and nostalgia that remains with us today.
               </p>
             </div>
+            <div className="flex justify-center items-center order-first lg:order-none">
+              <Image
+                className="rounded hover:scale-105 transition"
+                src="/arcade2.png"
+                alt="Arcade"
+                width={200}
+                height={200}
+              />
+            </div>
             <div className="flex justify-center items-center">
               <Image
                 className="rounded hover:scale-105 transition"
-                src="/gameboy.jpg"
+                src="/gameboy2.png"
                 alt="Gameboy"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
               />
             </div>
-            <div className="text-light1">
-              <h3 className="text-3xl italic font-bold">or maybe...</h3>
+            <div className="flex flex-col justify-center text-light1 lg:col-span-2 text-center">
+              <h3 className="text-4xl font-black italic">OR MAYBE...</h3>
               <br />
-              <p>
+              <p className="text-2xl">
                 The nostalgia of old handheld game consoles such as the Gameboy
-                and PSP is something that you can relate to. These consoles were
-                popular for their portability, allowing gamers to take their
-                favorite games with them wherever they went. With new
+                and PSP is something that you can relate to. With new
                 advancements in technology, these classic handhelds have been
                 replaced by more powerful devices, yet there&apos;s still
                 something special about revisiting these old games that makes
@@ -131,7 +129,7 @@ export default function Home() {
             You&apos;ve come to the right place.
           </h2>
           <hr className="my-5 text-dark2" />
-          <h3 className="text-center text-2xl px-10">
+          <h3 className="text-center text-2xl max-w-screen-sm px-10">
             Timeless Trinkets offers the latest and greatest retro handhelds,
             perfect for any collector or enthusiast. Get your hands on these
             timeless trinkets at an affordable price!
@@ -148,14 +146,6 @@ export default function Home() {
           <div className="flex justify-center items-center flex-wrap mt-6">
             <div className="relative w-60 h-20 border">
               <Image
-                src="/anbernic.png"
-                alt="Anbernic"
-                className="object-contain"
-                fill
-              />
-            </div>
-            <div className="relative w-60 h-20 border">
-              <Image
                 src="/miyoo.png"
                 alt="Miyoo"
                 className="object-contain"
@@ -164,19 +154,23 @@ export default function Home() {
             </div>
             <div className="relative w-60 h-20 border">
               <Image
+                src="/anbernic.png"
+                alt="Anbernic"
+                className="object-contain"
+                fill
+              />
+            </div>
+
+            <div className="relative w-60 h-20 border">
+              <Image
                 src="/retroid.png"
                 alt="Retroid"
                 className="object-contain"
                 fill
               />
             </div>
-            <div className="relative w-60 h-20 border">
-              <Image
-                src="/powkiddy.png"
-                alt="Powkiddy"
-                className="object-contain"
-                fill
-              />
+            <div className="relative w-60 h-20 border flex justify-center items-center">
+              <h3 className="text-xl text-center start">and many more!</h3>
             </div>
           </div>
         </div>

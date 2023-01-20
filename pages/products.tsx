@@ -14,7 +14,7 @@ function products() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className="bg-light1 pt-16">
+      {/* <main className="bg-light1 pt-16">
         <div className="container mx-auto py-10">
           <h2 className="text-5xl text-dark2 font-semibold">Latest Products</h2>
           <hr className="my-5" />
@@ -73,7 +73,7 @@ function products() {
             </div>
           </div>
         </div>
-      </main>
+      </main> */}
       <Footer />
     </>
   );
